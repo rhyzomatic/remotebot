@@ -3,7 +3,7 @@ import time
 import socket
 
 s = socket.socket()
-s.connect(("10.0.100.11", 9998))
+s.connect(("10.100.0.105", 9998))
 print("Connected")
 
 up = False
